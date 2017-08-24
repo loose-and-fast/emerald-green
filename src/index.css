@@ -1,5 +1,54 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.3
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
+
+.marketing-site-hero {
+  background: url("./assets/hero.jpg") top right no-repeat;
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero {
+      background-position: center center; } }
+
+.marketing-site-hero-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .marketing-site-hero-content h1 {
+    font-size: 32px; }
+  .marketing-site-hero-content .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0; }
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-content {
+      padding-left: 50%; } }
+
+.foundation-5-top-bar {
+  background: #333;
+  color: #fefefe; }
+  .foundation-5-top-bar .menu {
+    background: #333; }
+    .foundation-5-top-bar .menu a {
+      color: #fefefe; }
+  .foundation-5-top-bar .is-dropdown-submenu {
+    border: 0; }
+  .foundation-5-top-bar .is-dropdown-submenu-item.opens-right a::after {
+    border-color: transparent transparent transparent #fefefe; }
+  .foundation-5-top-bar .js-drilldown-back > a::before {
+    border-color: transparent #fefefe transparent transparent; }
+  .foundation-5-top-bar .is-drilldown-submenu-parent > a::after {
+    border-color: transparent transparent transparent #fefefe; }
+  .foundation-5-top-bar .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    border-color: #fefefe transparent transparent; }
